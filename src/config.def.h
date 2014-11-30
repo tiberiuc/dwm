@@ -7,7 +7,8 @@ static const char normbgcolor[] = "#073642";
 //static const char normbgcolor[]     = "#002b36";
 static const char normfgcolor[]     = "#fdf6e3";
 static const char selbordercolor[]  = "#586e75";
-static const char selbgcolor[]      = "#073642";
+//static const char selbgcolor[]      = "#073642";
+static const char selbgcolor[]      = "#002b36";
 static const char selfgcolor[]      = "#fdf6e3";
 
 //static const char normbordercolor[] = "#444444";
@@ -75,6 +76,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
+	{ MODKEY,                       XK_w,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },

@@ -1,0 +1,12 @@
+diff -rupN orig/dwm.c modified/dwm.c
+--- orig/dwm.c	2011-12-19 16:38:30.000000000 +0200
++++ modified/dwm.c	2014-11-30 22:44:22.866353398 +0200
+@@ -755,7 +755,7 @@ drawbar(Monitor *m) {
+ 		dc.x = x;
+ 		if(m->sel) {
+ 			col = m == selmon ? dc.sel : dc.norm;
+-			drawtext(m->sel->name, col, False);
++			drawtext(m->sel->name, dc.norm, False);
+ 			drawsquare(m->sel->isfixed, m->sel->isfloating, False, col);
+ 		}
+ 		else
