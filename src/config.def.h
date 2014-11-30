@@ -8,7 +8,7 @@ static const char normbgcolor[] = "#073642";
 static const char normfgcolor[]     = "#fdf6e3";
 static const char selbordercolor[]  = "#586e75";
 //static const char selbgcolor[]      = "#073642";
-static const char selbgcolor[]      = "#002b36";
+static const char selbgcolor[]      = "#657b83";
 static const char selfgcolor[]      = "#fdf6e3";
 
 //static const char normbordercolor[] = "#444444";
