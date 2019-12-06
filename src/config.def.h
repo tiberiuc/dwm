@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]            = "DejaVu Sans Mono for Powerline,Icons 8";
+static const char font[]            = "DejaVu Sans Mono for Powerline,Icons 10";
 static const char normbordercolor[] = "#073642";
 static const char normbgcolor[] = "#073642";
 //static const char normbgcolor[]     = "#002b36";
@@ -57,7 +57,8 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
-static const char *termcmd[]  = { "urxvt", NULL };
+// static const char *termcmd[]  = { "urxvt", NULL };
+static const char *termcmd[]  = { "terminator", NULL };
 static const char *google_chrome[]  = { "google-chrome", NULL };
 
 static Key keys[] = {

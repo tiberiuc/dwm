@@ -41,3 +41,4 @@ make
 
 sudo killall -9 dwm
 sudo cp dwm /usr/bin/dwm.default
+sudo cp dwm /usr/sbin/dwm
